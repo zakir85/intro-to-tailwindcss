@@ -8,7 +8,7 @@
 </head>
 <body>
     <section class="mb-4">
-        <h1 class="text-purple-400 bg-indigo-100" >Hello tailwind css</h1>
+        <h1 class="text-purple-500 bg-skyblue-100 h-20 py-3 text-center text-5xl" >Hello Tailwind CSS</h1>
         <p class="text-slate-500 hover:text-blue-600 bg-red-100">The quick brown fox jumps over the lazy dog.</p>
         <p class="bg-cyan-100 hover:text-green-600">The quick brown fox jumps over the lazy dog.</p>
     </section>
@@ -21,13 +21,62 @@
     </section>
     <hr>
 
-    <section class="my-10">
-        <h1 class="text-4xl text-center border-8 border-red-800 ">
+    <section class="my-10 border-4 border-purple-800 p-3 bg-indigo-400">
+        <h1 class="text-4xl text-center ">
             The quick brown fox jumps over the lazy dog.
         </h1>
+        <p>The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. </p>
+
         
     </section>
     <hr>
+    <section class="border-4 border-purple-800 p-4 ">
+        <h3 class="text-3xl text-center m-4">Exploring flex in Tailwind </h3>
+        <div class="flex justify-center m-10 h-96 items-center gap-x-4 flex-col md:flex-row lg:justify-between">
+            <div class="bg-sky-400 w-24 h-24 border-2 border-red-800 rounded-lg font-bold text-center rotate-45" >Box-1</div>
+            <div class="bg-sky-400 w-24 h-24 border-2 border-red-800 rounded-lg font-bold text-center " >Box-2</div>
+            <div class="bg-sky-400 w-24 h-24 border-2 border-red-800 rounded-lg font-bold text-center " >Box-3</div>
+            <div class="bg-sky-400 w-24 h-24 border-2 border-red-800 rounded-lg font-bold text-center " >Box-4</div>
+            
+        </div>
+    </section>
+    <hr>
+    <section class="border-4 border-red-800 p-4 ">
+        <h3 class="text-center font-bold">Grid Layout</h3>
+        <div class="grid gap-2.5 grid-cols-1 md:grid-cols-4">
+            <div class="bg-sky-300 p-4 rounded-lg">Box1</div>
+            <div class="bg-sky-300 p-4 rounded-lg">Box2</div>
+            <div class="bg-sky-300 p-4 rounded-lg">Box3</div>
+            <div class="bg-sky-300 p-4 rounded-lg">Box4</div>
+            <div class="md:col-span-3 p-4 rounded-lg">Box5</div>
+            <div class="bg-sky-300 p-4 rounded-lg">Box6</div>
+            <div class="bg-sky-300 p-4 rounded-lg row-span-3">Box7</div>
+            <div class="bg-sky-300 p-4 rounded-lg">Box8</div>
+            <div class="bg-sky-300 p-4 rounded-lg">Box9</div>
+            <div class="bg-sky-300 p-4 rounded-lg">Box10</div>
+            <div class="bg-sky-300 p-4 rounded-lg">Box11</div>
+            <div class="bg-sky-300 p-4 rounded-lg">Box12</div>
+            <div class="bg-sky-300 p-4 rounded-lg">Box13</div>
+            <div class="bg-sky-300 p-4 rounded-lg">Box14</div>
+            <div class="bg-sky-300 p-4 rounded-lg">Box15</div>
+            <div class="bg-sky-300 p-4 rounded-lg">Box16</div>
+            <div class="bg-sky-300 p-4 rounded-lg">Box17</div>
+            <div class="bg-sky-300 p-4 rounded-lg">Box18</div>
+            <div class="bg-sky-300 p-4 rounded-lg">Box19</div>
+            <div class="bg-sky-300 p-4 rounded-lg">Box20</div>
+        </div>
+
+    </section>
+    <hr>
+    <section class="mt-10">
+        <div class="grid gap-2 grid-cols-1 md:grid-cols-4">
+            <div class="bg-yellow-300 md:col-span-4">Header</div>
+            <div class="bg-yellow-300">Nav</div>
+            <div class="bg-yellow-300 md:col-span-3 h-60">Main content</div>
+            <div class="bg-yellow-300 md:col-span-4">Footer</div>
+
+        </div>
+    </section>
 
 </body>
 </html>
